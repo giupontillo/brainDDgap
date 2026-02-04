@@ -5,4 +5,4 @@ data/*.nii.gz
 
 # --- Model Weights ---
 # Ignore large binary files
-weights/*.pth
+*.pth
