@@ -3,7 +3,7 @@
 ...
 ![Brain-age and DD gaps](images/Figure_1.svg)
 
-![MS-age gap](images/SupplementaryFigure_1.tif)
+![MS-age gap](images/SupplementaryFigure_1.png)
 
 ## Installation 🛠️
 ...
