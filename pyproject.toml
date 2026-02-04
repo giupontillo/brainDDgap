@@ -6,15 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "brainDDgap"
 description = "3D DenseNet pipeline for chronological brain age prediction"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "=3.10"
 # List only the core Python dependencies here
 dependencies = [
     "torch",
     "monai",
     "nibabel",
-    "numpy",
-    "pandas",
-    "matplotlib"
+    "numpy"
 ]
 
 # This creates the 'predict-age' command in the terminal
