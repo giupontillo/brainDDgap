@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "brainDDgap"
-description = "3D DenseNet pipeline for chronological brain age prediction"
+description = "Deep learning-based prediction of disease duration and age in people with Multiple Sclerosis from 3D T1w or FLAIR 🧠 MRI"
 readme = "README.md"
 requires-python = "=3.10"
 # List only the core Python dependencies here
@@ -15,7 +15,7 @@ dependencies = [
     "numpy"
 ]
 
-# This creates the 'predict-age' command in the terminal
+# This creates the 'predict-brainage' and 'predict_brainDD' commands in the terminal
 [project.scripts]
 predict_brainage = "predict_brainage:main"
 predict_brainDD = "predict_brainDD:main"

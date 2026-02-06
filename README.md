@@ -26,15 +26,15 @@ Model weights are not stored in this repository due to size. Download model weig
 Once installed, you can run the prediction directly from your terminal using the predict_brainage and predict_brainDD commands.
 ```
 # Basic prediction
-predict_brainage path/to/scan.nii.gz --modality T1w --do_preprocessing
+predict_brainage path/to/scan.nii.gz --modality t1w --do_preprocessing
 
 # Prediction with GBP Map generation
-predict_brainDD path/to/scan.nii.gz --modality FLAIR --do_preprocessing --guided_backpropagation
+predict_brainDD path/to/scan.nii.gz --modality flair --do_preprocessing --guided_backpropagation
 ```
 
 **Arguments**
 - input_image: Path to the NIfTI (.nii.gz) file.
-- `--modality`: Choose between T1w or FLAIR.
+- `--modality`: Choose between t1w or flair.
 - `--do_preprocessing`: do preprocessing.
 - `--guided_backpropagation`: generate GBP map showing predictive regions.
 - `--output`: output folder where GMP map and preprocessed image are saved (only works with --guided_backpropagation, default folder is the same as the input image)
