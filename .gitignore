@@ -1,7 +1,7 @@
 # --- Medical Imaging & Data ---
 # Never upload MRI scans or patient data
-data/*.nii
-data/*.nii.gz
+# data/*.nii
+# data/*.nii.gz
 
 # --- Model Weights ---
 # Ignore large binary files

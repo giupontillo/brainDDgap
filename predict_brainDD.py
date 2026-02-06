@@ -43,8 +43,7 @@ def main():
 
     transforms = Compose([AddChannel(), Resize((121,145,121), mode="trilinear"), CenterSpatialCrop([113,139,119]), NormalizeIntensity(), ScaleIntensity(), ToTensor()]) 
 
-    # Apply transforms
-    # Note: Transforms usually expect inputs in (H, W, D) format
+    # Apply transforms (Transforms expect inputs in (H, W, D) format)
     input_tensor = transforms(nifti_data)
     
     # Add Batch Dimension (1, C, H, W, D)
